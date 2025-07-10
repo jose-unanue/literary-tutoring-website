@@ -13,8 +13,20 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.post('/support', (req, res) => {
-  res.render('support', { name });
+app.get('/support', (req, res) => {
+  res.render('support');
+});
+
+app.get('/tutoring', (req, res) => {
+  res.render('tutoring');
+});
+
+app.get('/updates', (req, res) => {
+  res.render('updates');
+});
+
+app.get('/team', (req, res) => {
+  res.render('team');
 });
 
 // Server
