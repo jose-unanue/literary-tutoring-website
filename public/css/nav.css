@@ -1,0 +1,24 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1.5rem;
+}

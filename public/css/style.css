@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 a {
@@ -18,40 +18,20 @@ a {
   color: #333;
 }
 
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #f8f9fa;
-  padding: 1rem 2rem;
-}
-
-.navbar-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.logo {
-  height: 3rem;
-  width: auto;
-}
-
-.nav-right {
-  display: flex;
-  gap: 1.5rem;
-}
-
 .content {
   text-align: center;
-  height: 1000px;
-  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2.5rem;
 }
 
 .button {
-    color: #000;
-    background-color: #fff;
-    padding: 1rem;
-    margin: 1rem;
+  color: #fff;
+  width: 20rem;
+  border: 3px solid;
+  background-color: transparent;
+  padding: 1rem;
 }
