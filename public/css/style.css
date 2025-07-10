@@ -6,13 +6,24 @@ body {
 
 .navbar {
     background-color: #f8f9fa;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .navbar-nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
+}
+
+.nav-right {
+    display: flex;
+    gap: 1.5rem;
 }
 
 .nav-link {
