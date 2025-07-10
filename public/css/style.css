@@ -35,3 +35,11 @@ a {
   background-color: transparent;
   padding: 1rem;
 }
+
+.statistics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  gap: 2rem;
+}

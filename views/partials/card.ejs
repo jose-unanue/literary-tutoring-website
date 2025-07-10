@@ -1,0 +1,8 @@
+<div class="card <%= variant || 'blue-card' %>">
+  <p class="cardText"><%= topText %></h2>
+  <p class="cardNumber"><%= number %></p>
+  <p class="cardText"><%= bottomText %></p>
+  <% if (link) { %>
+    <a href="<%= link.url %>" class="cardLink"><%= link.label %></a>
+  <% } %>
+</div>

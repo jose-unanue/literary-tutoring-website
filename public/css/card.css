@@ -1,0 +1,30 @@
+.card {
+    font-family: "Sen", sans-serif;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue-card {
+    background-color: #76cae9;
+    color: #0a1763;
+}
+
+.cardText {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #111f6e;
+}
+
+.cardNumber {
+    margin: 1rem 0;
+    font-size: 5rem;
+}
+
+.cardLink {
+    margin: 1rem 0 0 0;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}

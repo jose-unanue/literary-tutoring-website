@@ -1,10 +1,43 @@
 
 <%- include('partials/header') %>
 <link rel="stylesheet" href="/css/hero.css" />
+<link rel="stylesheet" href="/css/card.css" />
   <div class="content hero">
     <h1>Be Mentored by a Tutor</h1>
     <h2>Free tutoring for those seeking academic assistance</h2>
     <a href="/tutoring" class="button">Receive Tutoring</a>
+  </div>
+  <div class="statistics" style="background-color: #c3e5ff;">
+    <%- include('partials/card', {
+    topText: 'ELL* and Low-Income students are',
+    number: '50',
+    bottomText: 'Percent less likely to take advanced math courses in high school compared nationally',
+    variant: 'blue-card',
+    link: {
+      url: "https://www.sciencedirect.com/science/article/abs/pii/S0361476X24000572",
+      label: "Learn More",
+    }
+  }) %>
+  <%- include('partials/card', {
+    topText: 'Of Low-Income 8th graders,',
+    number: '18',
+    bottomText: 'Percent are proficient in math versus 31% nationally',
+    variant: 'blue-card',
+    link: {
+      url: "https://www.letsgolearn.com/education-reform/poverty-impacts-educational-outcomes/",
+      label: "Learn More",
+    }
+  }) %>
+  <%- include('partials/card', {
+    topText: 'Of ELL* 8th graders,',
+    number: '5',
+    bottomText: 'Percent are proficient in Reading versus 33% nationally',
+    variant: 'blue-card',
+    link: {
+      url: "https://www.edweek.org/teaching-learning/nations-report-card-how-ells-fared-in-2011/2011/11?",
+      label: "Learn More",
+    }
+  }) %>
   </div>
 </body>
     <%- include('partials/footer') %>
