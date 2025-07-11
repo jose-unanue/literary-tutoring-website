@@ -1,0 +1,26 @@
+.footer {
+    background-color: #f7f7ff;
+    padding: 60px;
+}
+
+.footer img {
+    height: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #4a0e7e;
+}
+
+.info-link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.info-link {
+    text-decoration: underline;
+    font-weight: 700;
+}

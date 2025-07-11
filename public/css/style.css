@@ -26,12 +26,15 @@ a {
   padding: 1rem;
 }
 
-.button-white {
-  color: #fff;
-  width: 12rem;
+.button {
   border: 3px solid;
   background-color: transparent;
   padding: 1rem;
+}
+
+.button-white {
+  color: #fff;
+  width: 12rem;
 }
 
 .button-white:hover,
