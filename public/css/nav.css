@@ -1,8 +1,10 @@
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
   padding: 1rem 2rem;
 }
 
@@ -21,4 +23,9 @@
 .nav-right {
   display: flex;
   gap: 1.5rem;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: #fff;
 }
