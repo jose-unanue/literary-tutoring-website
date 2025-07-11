@@ -1,6 +1,6 @@
 .card {
     font-family: "Sen", sans-serif;
-    width: 250px;
+    width: calc((100% - 4rem) / 3);
     height: 250px;
     padding: 20px;
     text-align: center;
@@ -17,6 +17,11 @@
     color: #111f6e;
 }
 
+.normalText {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
 .cardNumber {
     margin: 1rem 0;
     font-size: 5rem;
@@ -27,4 +32,15 @@
     color: #000;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.normalCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 2.5rem 0;
+    padding: 2rem;
 }

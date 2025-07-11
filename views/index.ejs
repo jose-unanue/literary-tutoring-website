@@ -2,12 +2,14 @@
 <%- include('partials/header') %>
 <link rel="stylesheet" href="/css/hero.css" />
 <link rel="stylesheet" href="/css/card.css" />
+<div>
   <div class="content hero">
     <h1>Be Mentored by a Tutor</h1>
     <h2>Free tutoring for those seeking academic assistance</h2>
     <a href="/tutoring" class="button">Receive Tutoring</a>
   </div>
   <div class="statistics" style="background-color: #c3e5ff;">
+    <div class="cardContainer" style="font-size: 1rem;">
     <%- include('partials/card', {
     topText: 'ELL* and Low-Income students are',
     number: '50',
@@ -38,6 +40,18 @@
       label: "Learn More",
     }
   }) %>
+  </div>
+  </div>
+  <div class="content" style="background-color: #c3e5ff; padding: 0 0 5rem 0;">
+    <p>* "ELL" means "English language learner" -- students who are still learning English</p>
+  </div>
+  <div class="content" style="background-color: #fff0db; color: #8b4102">
+    <%- include ('partials/contentcard', {
+      topText: null,
+      centerText: 'What do we do?',
+      bottomText: null,
+      color: 'f2e4d1'
+    }) %>
   </div>
 </body>
     <%- include('partials/footer') %>
